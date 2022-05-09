@@ -1,0 +1,60 @@
+body{
+    font-family: "Nunito";
+    color: #ce1d1d;
+}
+
+.photo{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid #ce1d1d;
+    position: fixed;
+    top: 20%;
+    left: 10%;
+}
+
+.iconsContainer{
+    position: absolute;
+    left: 80%;
+    height: 100%;
+    width: 20%;
+    background-color: #ce1d1d;  
+    text-align: center;
+}
+
+.fa-brands{
+    color: white;
+    font-size: 500%;
+    width: 100%;
+    margin: 25% 0;
+}
+
+.fa-brands:hover{
+    color: brown;
+}
+
+.text{
+    position: fixed;
+    top: 25%;
+    left: 40%;
+}
+
+h1{
+    font-size: 500%;
+    margin: 0;
+}
+
+h2{
+    font-size: 300%;
+    margin: 0;
+}
+
+.subtitles{
+    font-size: 180%;
+    font-weight: bold;
+}
+
+p{
+    font-size: 120%;
+}
